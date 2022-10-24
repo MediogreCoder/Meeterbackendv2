@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  mentee_full_name: MyString
+  mentor_full_name: MyString
+  message_owner: MyString
+  message_body: MyString
+
+two:
+  mentee_full_name: MyString
+  mentor_full_name: MyString
+  message_owner: MyString
+  message_body: MyString

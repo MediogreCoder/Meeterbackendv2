@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: meetorsapi_development
+  database: meetorsapiv3_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -57,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: meetorsapi_test
+  database: meetorsapiv3_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: meetorsapi_production
-  username: meetorsapi
+  database: meetorsapiv3_production
+  username: meetorsv3api
   password: <%= ENV["MEETORSAPI_DATABASE_PASSWORD"] %>
